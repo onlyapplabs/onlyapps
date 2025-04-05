@@ -212,7 +212,7 @@ nav {
     background-color: #171416;
     padding: 32px;
     color: #979797;
-    font-size: 24px;
+    font-size: 22px;
     flex: 7;
     border-left: 5px #87FB0A solid;
     align-content: center;
@@ -223,7 +223,7 @@ nav {
     color: white;
     align-content: center;
     padding: 32px;
-    font-size: 24px;
+    font-size: 22px;
     border: 2px #171416 solid;
 }
 
