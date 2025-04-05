@@ -16,6 +16,8 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
 
 a:hover {
@@ -41,6 +43,10 @@ nav {
     color: white;
     font-size: 24px;
     font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
 }
 
 .nav-item {
@@ -53,7 +59,7 @@ nav {
 
 .nav-button {
     padding: 12px 20px;
-    background-color:white;
+    background-color: white;
     border-radius: 8px;
     color: black;
     font-size: 14px;
@@ -122,7 +128,7 @@ nav {
     color: transparent;
 }
 
-.section-title > .underscore{
+.section-title>.underscore {
     color: #87FB0A;
 }
 
@@ -137,17 +143,24 @@ nav {
     padding-right: 96px;
 }
 
-.onlywalls {
-    flex: 4;
+.app {
+    flex: 8;
+}
+
+.app-content {
     padding: 44px 48px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient();
 }
 
-.onlyai {
-    flex: 4;
-    padding: 44px 48px;
+.onlywalls-bg {
+    background: url('/assets/onlywalls-bg.png');
+    background-size: 100% 100%;
+}
+
+.onlyai-bg {
+    background: url('/assets/onlyai-bg.png');
+    background-size: 100% 100%;
 }
 
 .coming-soon {
@@ -165,6 +178,57 @@ nav {
 }
 
 .app-name {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 700;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.app-bottom-divider {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #F2FD50, #FFFFFF);
+}
+
+.coming-soon {
+    align-content: center;
+    border-bottom: 5px #979797 solid;
+}
+
+.coming-soon-title {
+    color: #979797;
+    font-size: 24px;
+    transform: rotate(-90deg);
+    text-align: center;
+}
+
+.about-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-detail-1 {
+    background-color: #171416;
+    padding: 32px;
+    color: #979797;
+    font-size: 24px;
+    flex: 7;
+    border-left: 5px #87FB0A solid;
+    align-content: center;
+}
+
+.about-detail-2 {
+    flex: 3;
+    color: white;
+    align-content: center;
+    padding: 32px;
+    font-size: 24px;
+    border: 2px #171416 solid;
+}
+
+footer {
+    padding: 44px;
+    margin-top: 98px;
+    border-top: 1px rgba(242, 253, 80, 0.2) solid;
 }
