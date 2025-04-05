@@ -1,0 +1,25 @@
+<svg width="48" height="49" viewBox="0 0 48 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="0.5" width="48" height="48" rx="8" fill="#FCAA88" fill-opacity="0.15"/>
+<path d="M11.025 12.7182V37.2807C11.0252 37.3339 11.0411 37.386 11.0707 37.4303C11.1003 37.4746 11.1424 37.5091 11.1916 37.5296C11.2408 37.5501 11.2949 37.5556 11.3472 37.5455C11.3996 37.5353 11.4477 37.5099 11.4856 37.4725L24.275 25L11.4856 12.5263C11.4477 12.4889 11.3996 12.4635 11.3472 12.4533C11.2949 12.4432 11.2408 12.4487 11.1916 12.4692C11.1424 12.4897 11.1003 12.5242 11.0707 12.5685C11.0411 12.6128 11.0252 12.6649 11.025 12.7182Z" fill="url(#paint0_linear_29_125)"/>
+<path d="M29.6375 19.8749L13.6012 11.0399L13.5912 11.0343C13.315 10.8843 13.0525 11.2581 13.2787 11.4756L25.8494 23.4956L29.6375 19.8749Z" fill="url(#paint1_linear_29_125)"/>
+<path d="M13.2801 38.5244C13.0526 38.7419 13.3151 39.1157 13.5926 38.9657L13.6026 38.96L29.6376 30.125L25.8495 26.5032L13.2801 38.5244Z" fill="url(#paint2_linear_29_125)"/>
+<path d="M36.1112 23.4374L31.6331 20.9712L27.4225 24.9999L31.6331 29.0268L36.1112 26.5624C37.3294 25.8893 37.3294 24.1106 36.1112 23.4374Z" fill="url(#paint3_linear_29_125)"/>
+<defs>
+<linearGradient id="paint0_linear_29_125" x1="11.025" y1="12.4484" x2="24.9927" y2="12.8543" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCAB85"/>
+<stop offset="1" stop-color="#FB99DB"/>
+</linearGradient>
+<linearGradient id="paint1_linear_29_125" x1="13.193" y1="10.9998" x2="30.4522" y2="12.2502" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCAB85"/>
+<stop offset="1" stop-color="#FB99DB"/>
+</linearGradient>
+<linearGradient id="paint2_linear_29_125" x1="13.1936" y1="26.5032" x2="30.4523" y2="27.7534" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCAB85"/>
+<stop offset="1" stop-color="#FB99DB"/>
+</linearGradient>
+<linearGradient id="paint3_linear_29_125" x1="27.4225" y1="20.9712" x2="37.51" y2="21.6332" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCAB85"/>
+<stop offset="1" stop-color="#FB99DB"/>
+</linearGradient>
+</defs>
+</svg>

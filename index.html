@@ -12,19 +12,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <nav>
-        <div class="nav-title"><img src="assets/logo.png" width="24px"><div>nlyapps</div></div>
+        <div class="nav-title"><img src="assets/logo.png" width="24px">
+            <div>nlyapps</div>
+        </div>
         <div class="nav-items">
             <a href="#about">
                 <div class="nav-item">About Us</div>
             </a>
-            <a class="nav-button" href="#explore">Explore Our Apps &nbsp; <img src="assets/arrow-right-01-sharp.svg"
-                    alt="arrow-right-01-sharp"></a>
+            <a class="nav-button" href="#explore">
+                <div>Explore Our Apps </div> <span class="material-symbols" style="font-size: 16px;">
+                    chevron_right
+                </span>
+            </a>
 
         </div>
     </nav>
@@ -32,8 +37,11 @@
         <section class="main-hero">
             <div class="main-hero-title">Your Phone Deserves Better<span class="dot">.</span></div>
             <div class="main-hero-subtitle">AI powered apps that redefine what's possible</div>
-            <a class="main-hero-button" href="#explore">Explore Our Apps &nbsp; <img
-                    src="assets/arrow-right-01-sharp.svg" alt="arrow-right-01-sharp"></a>
+            <a class="main-hero-button" href="#explore">
+                <div>Explore Our Apps </div> <span class="material-symbols" style="font-size: 16px;">
+                    chevron_right
+                </span>
+            </a>
         </section>
         <section id="explore" class="explore">
             <div class="section-badge">THE ONLYAPPS' SUITE</div>
@@ -51,11 +59,11 @@
                             <a href="https://play.google.com/store/apps/details?id=com.onlyapps.wallpaper"
                                 target="_blank"><img src="/assets/play-store.svg" alt="onlywalls-playstore"></a>
                             <div style="width: 24px;"></div>
-                            <a href="https://apps.apple.com/us/app/onlywalls/id6738301844"
-                                target="_blank"><img src="assets/ppp-store.svg" alt="onlywalls-apstore"></a>
+                            <a href="https://apps.apple.com/us/app/onlywalls/id6738301844" target="_blank"><img
+                                    src="assets/ppp-store.svg" alt="onlywalls-apstore"></a>
                         </div>
                     </div>
-                    <div class="app-bottom-divider"></div>
+                    <div class="app-bottom-divider-onlywalls"></div>
                 </div>
                 <div class="app">
                     <div class="app-content onlyai-bg">
@@ -65,14 +73,12 @@
                         <div style="font-size: 20px;"><span style="font-weight: 300;">Personalize,
                                 transform—</span><span style="font-weight: 600;">wallpapers, reimagined.</span></div>
                         <div class="console-links" style="display: flex; margin-top: 92px;">
-                            <a href="#"
-                                target="_blank"><img src="/assets/play-store.svg" alt="onlyai-playstore"></a>
+                            <a href="#"><img src="/assets/play-store.svg" alt="onlyai-playstore"></a>
                             <div style="width: 24px;"></div>
-                            <a href="#"
-                                target="_blank"><img src="/assets/ppp-store.svg" alt="onlyai-appstore"></a>
+                            <a href="#"><img src="/assets/ppp-store.svg" alt="onlyai-appstore"></a>
                         </div>
                     </div>
-                    <div class="app-bottom-divider"></div>
+                    <div class="app-bottom-divider-onlyai"></div>
                 </div>
                 <div class="coming-soon">
                     <div class="coming-soon-title">More Coming Soon</div>
@@ -80,11 +86,11 @@
             </div>
         </section>
         <section id="about" class="about">
-            Why We Build, What We Build_
             <div class="section-badge">WHO ARE WE</div>
             <div class="section-title">Why We Build, What We Build<span class="underscore">_</span></div>
             <div style="height: 64px;"></div>
             <div class="about-detail">
+                <div style="background: linear-gradient(to right, #FCAB85, #FB99DB); width: 5px;"></div>
                 <div class="about-detail-1">
                     We're just two people with a couple of laptops, and way too much caffeine.
                     <div>Previously, we have built through every tech wave—Web3, AI, fintech and so on.</div>
@@ -99,10 +105,27 @@
         </section>
         <footer style="display: flex; flex-direction: column; align-items: center;justify-self: center; width: 100vw;">
             <div class="footer-header">
-                
+                <div class="footer-section">
+                    <div class="footer-section-title">PRODUCTS</div>
+                    <a href="#explore"><div class="footer-section-item">OnlyWalls</div></a>
+                    <a href="#explore"><div class="footer-section-item">OnlyAI</div></a>
+                </div>
+                <div class="footer-section">
+                    <div class="footer-section-title">SUPPORT</div>
+                    <a href="https://sites.google.com/view/onlyapps/terms" target="_blank"><div class="footer-section-item">Terms & Conditions</div></a>
+                    <a href="https://sites.google.com/view/onlyapps/privacy" target="_blank"><div class="footer-section-item">Privacy Policy</div></a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/company/onlyapplabs" target="_blank"><img src="/assets/linkedin.svg" alt="linkedin"></a>
+                    <a href="https://play.google.com/store/apps/dev?id=8849058353657960264" target="_blank"><img src="/assets/play-store-icon.svg" alt="Play Store Developer Page"></a>
+                    <a href="https://apps.apple.com/us/developer/harsh-choudhary/id1780065993" target="_blank"><img src="/assets/app-store-icon.svg" alt="App Store Developer Page"></a>
+                </div>
             </div>
-            <div class="footer-footer" style="align-items: center; display: flex; flex-direction: column;">
-                <div style="color: #515151;">Crafted w Intellect by <a style="color: white;" href="https://www.linkedin.com/in/tusharghige" target="_blank">Tushar</a> & <a style="color: white;" href="https://www.linkedin.com/in/lifeofharsh" target="_blank">Harsh</a></div>
+            <div class="footer-footer">
+                <div style="color: #515151;">Crafted w Intellect by <a style="color: white;"
+                        href="https://www.linkedin.com/in/tusharghige" target="_blank">Tushar</a> & <a
+                        style="color: white;" href="https://www.linkedin.com/in/lifeofharsh" target="_blank">Harsh</a>
+                </div>
                 <div style="color: #515151;">© 2025 OnlyApps</div>
             </div>
         </footer>

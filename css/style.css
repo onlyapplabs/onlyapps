@@ -57,13 +57,19 @@ nav {
     margin-right: 40px;
 }
 
-.nav-button {
+.nav-button,
+.nav-button:hover {
     padding: 12px 20px;
-    background-color: white;
+    background-color: #121212;
     border-radius: 8px;
-    color: black;
+    color: white;
     font-size: 14px;
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
 }
 
 .main-hero {
@@ -83,7 +89,9 @@ nav {
 }
 
 .main-hero-title>.dot {
-    color: #87FB0A;
+    background: linear-gradient(to right, #FCAB85, #FB99DB);
+    background-clip: text;
+    color: transparent;
 }
 
 .main-hero-subtitle {
@@ -93,15 +101,21 @@ nav {
     font-weight: 400;
 }
 
-.main-hero-button {
-    margin-top: 48px;
-    margin-bottom: 96px;
+.main-hero-button,
+.main-hero-button:hover {
     padding: 12px 20px;
-    background-color: #87FB0A;
+    background-color: white;
     border-radius: 8px;
     color: black;
     font-size: 14px;
     font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 56px;
+    margin-bottom: 88px;
 }
 
 .explore {
@@ -153,14 +167,15 @@ nav {
     flex-direction: column;
 }
 
-.onlywalls-bg {
+.onlywalls-bg:hover {
     background: url('/assets/onlywalls-bg.png');
     background-size: 100% 100%;
 }
 
-.onlyai-bg {
+.onlyai-bg:hover {
     background: url('/assets/onlyai-bg.png');
     background-size: 100% 100%;
+
 }
 
 .coming-soon {
@@ -185,10 +200,16 @@ nav {
     flex-direction: row;
 }
 
-.app-bottom-divider {
+.app-bottom-divider-onlyai {
     height: 5px;
     width: 100%;
     background: linear-gradient(to right, #F2FD50, #FFFFFF);
+}
+
+.app-bottom-divider-onlywalls {
+    height: 5px;
+    width: 100%;
+    background: linear-gradient(to right, #FB99D7, #FBA98A);
 }
 
 .coming-soon {
@@ -214,7 +235,6 @@ nav {
     color: #979797;
     font-size: 22px;
     flex: 7;
-    border-left: 5px #87FB0A solid;
     align-content: center;
 }
 
@@ -228,7 +248,54 @@ nav {
 }
 
 footer {
+    width: 100vw;
     padding: 44px;
     margin-top: 98px;
     border-top: 1px rgba(242, 253, 80, 0.2) solid;
+}
+
+.footer-header {
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 144px;
+    padding-right: 144px;
+}
+
+.footer-section {
+    flex: 4;
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-section-title {
+    background: linear-gradient(to right, #FCAB85, #FB99DB);
+    background-clip: text;
+    color: transparent;
+    font-size: 16px;
+}
+
+.footer-section-item {
+    color: white;
+    font-size: 18px;
+}
+
+.social-links {
+    flex: 6;
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
 }
