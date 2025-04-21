@@ -143,7 +143,8 @@ nav {
 }
 
 .section-title>.underscore {
-    color: #87FB0A;
+    background: linear-gradient(to right, #FCAB85, #FB99DB);
+    background-clip: text;
 }
 
 .apps {
@@ -274,7 +275,7 @@ footer {
 }
 
 .footer-section-title {
-    background: linear-gradient(to right, #FCAB85, #FB99DB);
+    background-color: #777;
     background-clip: text;
     color: transparent;
     font-size: 16px;
